@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Metro</title>
+
+</head>
+
+<body>
+    <center>
+        <img src="https://www.delhimetrorail.com/static/media/logo-passenger.d3afd408.svg">
+        <h1>Fare Calculator</h1>
+        <label for="stations">From</label>
+        <select name="stations" id="from">
+            <option disabled hidden selected>Select Station</option>
+            <option>Station A</option>
+            <option>Station B</option>
+            <option>Station C</option>
+            <option>Station D</option>
+            <option>Station E</option>
+            <option>Station F</option>
+            <option>Station G</option>
+            <option>Station H</option>
+            <option>Station I</option>
+            <option>Station J</option>
+            <option>Station K</option>
+            <option>Station L</option>
+            <option>Station M</option>
+            <option>Station N</option>
+            <option>Station O</option>
+            <option>Station P</option>
+            <option>Station Q</option>
+            <option>Station R</option>
+            <option>Station S</option>
+            <option>Station T</option>
+            <option>Station U</option>
+            <option>Station V</option>
+            <option>Station W</option>
+            <option>Station X</option>
+            <option>Station Y</option>
+            <option>Station Z</option>
+
+        </select>
+        <br>
+        <br>
+        <label for="stations">To</label>
+        <select name="stations" id="to">
+            <option disabled hidden selected>Select Station</option>
+            <option>Station A</option>
+            <option>Station B</option>
+            <option>Station C</option>
+            <option>Station D</option>
+            <option>Station E</option>
+            <option>Station F</option>
+            <option>Station G</option>
+            <option>Station H</option>
+            <option>Station I</option>
+            <option>Station J</option>
+            <option>Station K</option>
+            <option>Station L</option>
+            <option>Station M</option>
+            <option>Station N</option>
+            <option>Station O</option>
+            <option>Station P</option>
+            <option>Station Q</option>
+            <option>Station R</option>
+            <option>Station S</option>
+            <option>Station T</option>
+            <option>Station U</option>
+            <option>Station V</option>
+            <option>Station W</option>
+            <option>Station X</option>
+            <option>Station Y</option>
+            <option>Station Z</option>
+
+
+        </select>
+        <br>
+        <br>
+        <label for="stations">Mode</label>
+        <select name="stations" id="payment">
+            <option value="token">Token</option>
+            <option value="card">Card</option>
+            <!-- <option disabled hidden selected>Select Pay Mode</option> -->
+        </select>
+        <br>
+        <br>
+        <button onclick="calc()">Calculate</button>
+        <br>
+        <div id="result"></div>
+    </center>
+
+    <script src="/metro.js"></script>
+</body>
+
+</html>
